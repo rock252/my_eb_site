@@ -86,10 +86,10 @@ if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
        'default': {
              'ENGINE':'django.db.backends.postgresql_psycopg2',
-             'NAME': os.environ['hostaddb'],
+             'NAME': os.environ['hostad'],
              'USER': os.environ['udnkhatola'],
              'PASSWORD': os.environ['hostad123'],
-             'HOST': os.environ['hostad'],
+             'HOST': os.environ['hostaddb'],
              'PORT': os.environ['5432'],
              }
           }
