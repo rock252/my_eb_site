@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: null
+    environment: my-eb-site-dev
     group_suffix: null
 global:
   application_name: my_eb_site
